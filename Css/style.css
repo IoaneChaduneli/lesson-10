@@ -1,11 +1,11 @@
 .header-bg{
     background-image: url('../image/Untitled-1.png');
-    max-width: 1920px;
     width: 100%;
     height: 1080px;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top: 30px;
+    background-position: center;
+    padding-top: 30px; 
 }
 .container{
     margin: 0 auto;
@@ -183,4 +183,52 @@
 }
 .sandwich{
     margin-top: 10px;
+}
+/* end section1 */
+/* start section2 */
+.section2{
+    max-width: 1920px;
+    width: 100%;
+    height: 850px;
+    margin-top: 100px;
+    background-color: #FFAA00;
+}
+.section2-block{
+    display: flex;
+    padding-top: 40px;
+
+}
+.text-block{
+  max-width:450px;
+  width: 100%;
+  margin: 0 auto;
+}
+.img-block{
+    max-width: 809px;
+    width: 100%;
+}
+.supply-image{
+    width: 100%;
+}
+.supply-text{
+    width: 75%;
+    font-size: 47px;
+    color: white;
+    line-height: 60px;
+    margin-top: 300px;
+}
+.supply-text2{
+    max-width: 100%;
+    font-size: 47px;
+    color: white;
+    line-height: 60px;
+    
+}
+.supply-p{
+    width: 75%;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-top: 50px;
+    
 }
