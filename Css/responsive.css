@@ -1,0 +1,93 @@
+@media(max-width:1394px){
+    .footer-blocks{
+        padding-top: 20px;
+    }
+    .blocks{
+        margin-top: 20px;
+        max-width: 270px;
+        width: 100%;
+        height: 300px;
+    }
+    .menu-blocks{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:890px){
+    .navigation{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+    .meal-block{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .img-block{
+        margin-top: 50px;
+    }
+}
+@media(max-width:912px){
+    .menu-blocks{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media(max-width:700px){
+    .meal-block{
+        display: grid;
+        grid-template-columns: auto auto;
+       
+    }
+    .supply-text2{
+        font-size: 25px;
+        
+        
+    }
+    .supply-p{
+        font-size: 15px;
+    }
+    .img-block{
+        width: 70%;
+        transform: translateX(250px);
+        height: 180px;
+    }
+    .supply-image{
+        max-width: 250px;
+        width: 100%;
+    }
+    .h1-title{
+        font-size: 45px;
+    }
+    .h1-block{
+        max-width: 300px;
+        width: 100%;
+    }
+    .description-block{
+        max-width: 300px;
+        width: 100%;
+    }
+    .section-text-block{
+        max-width: 500px;
+        width: 100%;
+    }
+    .h2-title-p{
+        width: 70%;
+        margin: 20px auto;
+
+    }
+    .h2-title{
+        font-size: 30px;
+        
+    }
+}
+@media(max-width:480px){
+    .meal-block{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
